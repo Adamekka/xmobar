@@ -19,23 +19,6 @@ Config
     textOutputFormat = Ansi,
     commands =
       [ Run
-          Weather
-          "EGPF"
-          [ "-t",
-            "<station>: <tempC>C",
-            "-L",
-            "18",
-            "-H",
-            "25",
-            "--normal",
-            "green",
-            "--high",
-            "red",
-            "--low",
-            "lightblue"
-          ]
-          36000,
-        Run
           Network
           "eth0"
           [ "-L",
@@ -82,5 +65,6 @@ Config
     alignSep = "}{",
     template =
       "%cpu% | %memory% * %swap% | %eth0% - %eth1% }\
-      \{ <fc=#ee9a00>%date%</fc>| %EGPF% | %uname%"
+      \%date%\
+      \{%uname%}"
   }
