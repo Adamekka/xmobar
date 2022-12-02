@@ -59,7 +59,7 @@ Config
         Run Memory ["-t", "Mem: <usedratio>%"] 10,
         Run Swap [] 10,
         Run Com "uname" ["-s", "-r"] "" 36000,
-        Run Date "%a %b %d %Y %H:%M" "date" 10
+        Run Date "\xf133  %a %b %d %Y - (%H:%M) \xf017" "date" 10
       ],
     sepChar = "%",
     alignSep = "}{",
