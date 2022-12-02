@@ -2,7 +2,7 @@ Config
   { font = "xft:UbuntuMono Nerd Font:weight=bold:pixelsize=14:antialias=true:hinting=true",
     additionalFonts = [],
     borderColor = "black",
-    border = TopB,
+    border = NoBorder,
     bgColor = "#3B4252",
     fgColor = "grey",
     alpha = 255,
