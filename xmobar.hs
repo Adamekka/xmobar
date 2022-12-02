@@ -3,7 +3,7 @@ Config
     additionalFonts = [],
     borderColor = "black",
     border = TopB,
-    bgColor = "black",
+    bgColor = "#3B4252",
     fgColor = "grey",
     alpha = 255,
     position = Top,
