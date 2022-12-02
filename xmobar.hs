@@ -13,7 +13,7 @@ Config
     pickBroadest = False,
     persistent = False,
     hideOnStart = False,
-    iconRoot = ".",
+    iconRoot = "./images/",
     allDesktops = True,
     overrideRedirect = True,
     textOutputFormat = Ansi,
