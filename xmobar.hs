@@ -1,5 +1,5 @@
 Config
-  { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*",
+  { font = "xft:UbuntuMono Nerd Font:weight=bold:pixelsize=14:antialias=true:hinting=true",
     additionalFonts = [],
     borderColor = "black",
     border = TopB,
