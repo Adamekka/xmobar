@@ -19,32 +19,6 @@ Config
     textOutputFormat = Ansi,
     commands =
       [ Run
-          Network
-          "eth0"
-          [ "-L",
-            "0",
-            "-H",
-            "32",
-            "--normal",
-            "green",
-            "--high",
-            "red"
-          ]
-          10,
-        Run
-          Network
-          "eth1"
-          [ "-L",
-            "0",
-            "-H",
-            "32",
-            "--normal",
-            "green",
-            "--high",
-            "red"
-          ]
-          10,
-        Run
           Cpu
           [ "-L",
             "3",
@@ -64,7 +38,7 @@ Config
     sepChar = "%",
     alignSep = "}{",
     template =
-      "%cpu% | %memory% * %swap% | %eth0% - %eth1% }\
+      "%cpu% | %memory% * %swap%}\
       \%date%\
       \{%uname%}"
   }
