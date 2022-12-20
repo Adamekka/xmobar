@@ -40,5 +40,5 @@ Config
     template =
       "%cpu% | %memory% * %swap%}\
       \%date%\
-      \{%uname%}"
+      \{%uname%"
   }
