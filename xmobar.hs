@@ -34,7 +34,7 @@ Config
         Run Swap [] 10,
         Run Com "uname" ["-s", "-r"] "" 36000,
         Run Date "\xf133  %a %b %d %Y - (%H:%M) \xf017" "date" 10,
-        Run Battery ["-t", "<acstatus>: <left>% - <timeleft>h", "--", "-O", "AC", "-o", "BAT", "-l", "red", "-h", "green" ] 10
+        Run Battery ["-t", "<acstatus>: <left>% - <timeleft>h", "--", "-O", "AC", "-o", "BAT", "-l", "red", "-h", "green"] 10
       ],
     sepChar = "%",
     alignSep = "}{",
